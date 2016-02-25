@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		421CED331C7E636D0070E043 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED321C7E636D0070E043 /* main.swift */; };
+		421CED3B1C7E63B60070E043 /* EmployeeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED3A1C7E63B60070E043 /* EmployeeTest.swift */; };
+		421CED3D1C7E64660070E043 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED3C1C7E64660070E043 /* Employee.swift */; };
+		421CED3F1C7EC7200070E043 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED3E1C7EC7200070E043 /* StringExtensions.swift */; };
+		421CED431C7EC7600070E043 /* StringExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED421C7EC7600070E043 /* StringExtensionsTest.swift */; };
+		421CED451C7ECF9D0070E043 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED441C7ECF9D0070E043 /* Regex.swift */; };
+		421CED471C7ECFB00070E043 /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CED461C7ECFB00070E043 /* RegexTest.swift */; };
+		424BB02A1C7EE21C00858326 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424BB0291C7EE21C00858326 /* PriorityQueue.swift */; };
+		424BB02C1C7EE22400858326 /* PriorityQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424BB02B1C7EE22400858326 /* PriorityQueueTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +32,15 @@
 
 /* Begin PBXFileReference section */
 		421CED2F1C7E636D0070E043 /* CustomizingSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomizingSwift; sourceTree = BUILT_PRODUCTS_DIR; };
-		421CED321C7E636D0070E043 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		421CED321C7E636D0070E043 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = CustomizingSwift/main.swift; sourceTree = "<group>"; };
+		421CED3A1C7E63B60070E043 /* EmployeeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeTest.swift; sourceTree = "<group>"; };
+		421CED3C1C7E64660070E043 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		421CED3E1C7EC7200070E043 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		421CED421C7EC7600070E043 /* StringExtensionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionsTest.swift; sourceTree = "<group>"; };
+		421CED441C7ECF9D0070E043 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		421CED461C7ECFB00070E043 /* RegexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexTest.swift; sourceTree = "<group>"; };
+		424BB0291C7EE21C00858326 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		424BB02B1C7EE22400858326 /* PriorityQueueTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueueTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,7 @@
 		421CED261C7E636D0070E043 = {
 			isa = PBXGroup;
 			children = (
+				421CED391C7E63710070E043 /* Tests */,
 				421CED311C7E636D0070E043 /* CustomizingSwift */,
 				421CED301C7E636D0070E043 /* Products */,
 			);
@@ -57,9 +74,24 @@
 		421CED311C7E636D0070E043 /* CustomizingSwift */ = {
 			isa = PBXGroup;
 			children = (
-				421CED321C7E636D0070E043 /* main.swift */,
+				421CED3C1C7E64660070E043 /* Employee.swift */,
+				421CED441C7ECF9D0070E043 /* Regex.swift */,
+				424BB0291C7EE21C00858326 /* PriorityQueue.swift */,
+				421CED3E1C7EC7200070E043 /* StringExtensions.swift */,
 			);
 			path = CustomizingSwift;
+			sourceTree = "<group>";
+		};
+		421CED391C7E63710070E043 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				421CED3A1C7E63B60070E043 /* EmployeeTest.swift */,
+				421CED421C7EC7600070E043 /* StringExtensionsTest.swift */,
+				421CED461C7ECFB00070E043 /* RegexTest.swift */,
+				424BB02B1C7EE22400858326 /* PriorityQueueTest.swift */,
+				421CED321C7E636D0070E043 /* main.swift */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +151,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421CED3F1C7EC7200070E043 /* StringExtensions.swift in Sources */,
+				421CED431C7EC7600070E043 /* StringExtensionsTest.swift in Sources */,
 				421CED331C7E636D0070E043 /* main.swift in Sources */,
+				421CED3D1C7E64660070E043 /* Employee.swift in Sources */,
+				421CED3B1C7E63B60070E043 /* EmployeeTest.swift in Sources */,
+				424BB02A1C7EE21C00858326 /* PriorityQueue.swift in Sources */,
+				421CED471C7ECFB00070E043 /* RegexTest.swift in Sources */,
+				421CED451C7ECF9D0070E043 /* Regex.swift in Sources */,
+				424BB02C1C7EE22400858326 /* PriorityQueueTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +279,7 @@
 				421CED381C7E636D0070E043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
